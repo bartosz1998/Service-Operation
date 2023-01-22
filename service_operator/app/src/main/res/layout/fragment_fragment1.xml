@@ -6,7 +6,6 @@
     android:background="@color/teal_200"
     tools:context=".fragment1">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -16,36 +15,5 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:textColor="@color/black"/>
-
-    <TextView
-        android:id="@+id/dataFrom2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="150dp"
-        android:textColor="@color/black"
-        android:textSize="26dp"/>
-
-    <EditText
-        android:id="@+id/fragment1Data"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="26dp"
-        android:layout_marginTop="300dp"
-        android:ems="10"
-        android:hint="Data to Fragment 2"
-        android:inputType="textPersonName" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/sendData1btn"
-        android:text="Send Data to Fragment 2"
-        android:backgroundTint="@color/black"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/fragment1Data"
-        android:layout_marginTop="20dp"/>
-
 
 </RelativeLayout>
